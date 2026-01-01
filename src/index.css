@@ -886,6 +886,50 @@
   font-weight: 600;
 }
 
+.admin-input {
+  width: 90%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.admin-input:focus {
+  border-color: #243b55;
+}
+
+.admin-btn.logout {
+  background: #c0392b;
+  margin-bottom: 15px;
+}
+
+.admin-btn.logout:hover {
+  background: #962d22;
+}
+
+.admin-btn {
+  width: 100%;
+  padding: 12px;
+  background: #243b55;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.admin-btn:hover {
+  background: #141e30;
+  transform: translateY(-1px);
+}
+
+
+
 
 
 

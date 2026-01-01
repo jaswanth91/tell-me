@@ -16,7 +16,8 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/denied" element={<AccessDenied />} />
         <Route path="/reveal" element={<RevealPage />} />
-        <Route path="/admin" element={<AdminPage />} />
+       <Route path="/admin-secret-123" element={<AdminPage />} />
+
       </Routes>
     </BrowserRouter>
   );

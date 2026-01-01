@@ -1,4 +1,4 @@
-// src/pages/RevealPage.jsx
+// src\pages\RevealPage.jsx
 import React, { useEffect, useRef, useState } from "react";
 import ImageViewer from "../components/ImageViewer";
 import KeyInput from "../components/KeyInput";

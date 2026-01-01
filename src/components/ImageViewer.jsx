@@ -1,4 +1,4 @@
-// src/components/ImageViewer.jsx
+// src\components\ImageViewer.jsx
 import React, { forwardRef } from "react";
 
 const ImageViewer = forwardRef(
@@ -9,7 +9,7 @@ const ImageViewer = forwardRef(
         alt={alt}
         ref={ref}
         onLoad={onLoad}
-        crossOrigin="anonymous"   // REQUIRED for canvas decoding (Cloudinary)
+        crossOrigin="anonymous"   
         onError={(e) => {
           e.target.alt = "Failed to load image";
         }}
@@ -18,10 +18,10 @@ const ImageViewer = forwardRef(
           display: "block",
           margin: "0 auto",
           userSelect: "none",
-          pointerEvents: "none",   // extra anti-copy protection
+          pointerEvents: "none",   
           ...style,
         }}
-        draggable={false}         // prevents drag-save
+        draggable={false}         
       />
     );
   }
